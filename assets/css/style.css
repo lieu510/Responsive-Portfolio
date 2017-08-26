@@ -148,7 +148,8 @@ input {
     }
     #about {
         display: block;
-        height: 375px;
+        height: auto;
+        min-height: 375;
         margin: auto;
         margin-bottom: 20px;
     }
@@ -165,6 +166,7 @@ input {
         max-width: 580px;
         padding: 0;
         text-align: center;
+        position: static;
     }
     #links {
         float: none;
@@ -176,7 +178,5 @@ input {
         clear: both;
         max-width: 206px;
     }
-    #about {
-        height: auto;
-    }
+    
 }
